@@ -1,0 +1,819 @@
+ 66%] Built target step-41
+[100%] Run step-41 with Debug configuration
+Invalid MIT-MAGIC-COOKIE-1 keyNumber of active cells: 4
+Total number of cells: 5
+Number of degrees of freedom: 9
+
+###############################################
+##########  Assemble mass matrix  #############
+###############################################
+
+
+Quad points=0 0  0.5 0  0 0.5  0.5 0.5  
+i=  0 q_point=0
+ quadrature point=0 0 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=0
+ quadrature point=0 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  2 q_point=0
+ quadrature point=0 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=0
+ quadrature point=0 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=1
+ quadrature point=0.5 0 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=1
+ quadrature point=0.5 0 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=1
+ quadrature point=0.5 0 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=1
+ quadrature point=0.5 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=2
+ quadrature point=0 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=2
+ quadrature point=0 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=2
+ quadrature point=0 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=2
+ quadrature point=0 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=3
+ quadrature point=0.5 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=3
+ quadrature point=0.5 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=3
+ quadrature point=0.5 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=3
+ quadrature point=0.5 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+Mass_cell_matrix=[
+0.0625  0  0  0  
+0  0.0625  0  0  
+0  0  0.0625  0  
+0  0  0  0.0625  
+]
+mass_matrix=[
+0.0625  0  0  0  0  0  0  0  0  
+0  0.0625  0  0  0  0  0  0  0  
+0  0  0.0625  0  0  0  0  0  0  
+0  0  0  0.0625  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+]
+Quad points=0.5 0  1 0  0.5 0.5  1 0.5  
+i=  0 q_point=0
+ quadrature point=0.5 0 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=0
+ quadrature point=0.5 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  2 q_point=0
+ quadrature point=0.5 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=0
+ quadrature point=0.5 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=1
+ quadrature point=1 0 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=1
+ quadrature point=1 0 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=1
+ quadrature point=1 0 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=1
+ quadrature point=1 0 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=2
+ quadrature point=0.5 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=2
+ quadrature point=0.5 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=2
+ quadrature point=0.5 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=2
+ quadrature point=0.5 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=3
+ quadrature point=1 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=3
+ quadrature point=1 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=3
+ quadrature point=1 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=3
+ quadrature point=1 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+Mass_cell_matrix=[
+0.0625  0  0  0  
+0  0.0625  0  0  
+0  0  0.0625  0  
+0  0  0  0.0625  
+]
+mass_matrix=[
+0.0625  0  0  0  0  0  0  0  0  
+0  0.125  0  0  0  0  0  0  0  
+0  0  0.0625  0  0  0  0  0  0  
+0  0  0  0.125  0  0  0  0  0  
+0  0  0  0  0.0625  0  0  0  0  
+0  0  0  0  0  0.0625  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+]
+Quad points=0 0.5  0.5 0.5  0 1  0.5 1  
+i=  0 q_point=0
+ quadrature point=0 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=0
+ quadrature point=0 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  2 q_point=0
+ quadrature point=0 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=0
+ quadrature point=0 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=1
+ quadrature point=0.5 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=1
+ quadrature point=0.5 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=1
+ quadrature point=0.5 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=1
+ quadrature point=0.5 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=2
+ quadrature point=0 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=2
+ quadrature point=0 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=2
+ quadrature point=0 1 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=2
+ quadrature point=0 1 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=3
+ quadrature point=0.5 1 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=3
+ quadrature point=0.5 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=3
+ quadrature point=0.5 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=3
+ quadrature point=0.5 1 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+Mass_cell_matrix=[
+0.0625  0  0  0  
+0  0.0625  0  0  
+0  0  0.0625  0  
+0  0  0  0.0625  
+]
+mass_matrix=[
+0.0625  0  0  0  0  0  0  0  0  
+0  0.125  0  0  0  0  0  0  0  
+0  0  0.125  0  0  0  0  0  0  
+0  0  0  0.1875  0  0  0  0  0  
+0  0  0  0  0.0625  0  0  0  0  
+0  0  0  0  0  0.0625  0  0  0  
+0  0  0  0  0  0  0.0625  0  0  
+0  0  0  0  0  0  0  0.0625  0  
+0  0  0  0  0  0  0  0  0  
+]
+Quad points=0.5 0.5  1 0.5  0.5 1  1 1  
+i=  0 q_point=0
+ quadrature point=0.5 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=0
+ quadrature point=0.5 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  2 q_point=0
+ quadrature point=0.5 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=0
+ quadrature point=0.5 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=1
+ quadrature point=1 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=1
+ quadrature point=1 0.5 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=1
+ quadrature point=1 0.5 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  3 q_point=1
+ quadrature point=1 0.5 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=2
+ quadrature point=0.5 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=2
+ quadrature point=0.5 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=2
+ quadrature point=0.5 1 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=2
+ quadrature point=0.5 1 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0
+i=  0 q_point=3
+ quadrature point=1 1 shape_fun value=0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  1 q_point=3
+ quadrature point=1 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  2 q_point=3
+ quadrature point=1 1 shape_fun value=-0  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+i=  3 q_point=3
+ quadrature point=1 1 shape_fun value=1  fe_values.JxW=0.0625  cell_matrix(i, i)=0.0625
+Mass_cell_matrix=[
+0.0625  0  0  0  
+0  0.0625  0  0  
+0  0  0.0625  0  
+0  0  0  0.0625  
+]
+mass_matrix=[
+0.0625  0  0  0  0  0  0  0  0  
+0  0.125  0  0  0  0  0  0  0  
+0  0  0.125  0  0  0  0  0  0  
+0  0  0  0.25  0  0  0  0  0  
+0  0  0  0  0.0625  0  0  0  0  
+0  0  0  0  0  0.125  0  0  0  
+0  0  0  0  0  0  0.0625  0  0  
+0  0  0  0  0  0  0  0.125  0  
+0  0  0  0  0  0  0  0  0.0625  
+]
+###############################################
+###############################################
+###############################################
+###############################################
+
+
+setup_system
+Diag_mass=[0.0625  0.125  0.125  0.25  0.0625  0.125  0.0625  0.125  0.0625  ]'
+Newton iteration 0
+   Assembling system...
+i=  0 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00555444
+i=  1 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00148831
+i=  2 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00148831
+i=  3 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.000398791
+i=  0 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00931602
+i=  1 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0155267
+i=  2 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00249622
+i=  3 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00416037
+i=  0 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0130776
+i=  1 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0165346
+i=  2 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0165346
+i=  3 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00792194
+i=  0 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+i=  1 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  2 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  3 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+cell_rhs=[-0.015625  -0.0260417  -0.0260417  -0.0434028  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[0  1  2  3  ]'
+cell_rhs=[-0.015625  -0.0260417  -0.0260417  -0.0434028  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  0.666667  0  0  0  0  0  0  0  
+0  0  0.666667  0  0  0  0  0  0  
+0  0  0  0.666667  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+]
+system_rhs=[0  0  0  -0.0434028  0  0  0  0  0  ]'
+
+
+
+i=  0 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0140384
+i=  1 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  2 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  3 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00100791
+i=  0 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0155267
+i=  1 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00931602
+i=  2 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00416037
+i=  3 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00249622
+i=  0 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0250338
+i=  1 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0118634
+i=  2 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0396412
+i=  3 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0120033
+i=  0 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  1 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+i=  2 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+i=  3 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+cell_rhs=[-0.0260417  -0.015625  -0.0434028  -0.0260417  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[1  4  3  5  ]'
+cell_rhs=[-0.0260417  -0.015625  -0.0434028  -0.0260417  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  1.33333  0  0  0  0  0  0  0  
+0  0  0.666667  0  0  0  0  0  0  
+0  0  0  1.33333  0  0  0  0  0  
+0  0  0  0  0.666667  0  0  0  0  
+0  0  0  0  0  0.666667  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+]
+system_rhs=[0  0  0  -0.0868056  0  0  0  0  0  ]'
+
+
+
+i=  0 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0140384
+i=  1 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  2 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  3 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00100791
+i=  0 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0235454
+i=  1 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0392424
+i=  2 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00630898
+i=  3 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.010515
+i=  0 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0250338
+i=  1 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0396412
+i=  2 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0118634
+i=  3 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0120033
+i=  0 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  1 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+i=  2 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+i=  3 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+cell_rhs=[-0.0260417  -0.0434028  -0.015625  -0.0260417  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[2  3  6  7  ]'
+cell_rhs=[-0.0260417  -0.0434028  -0.015625  -0.0260417  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  1.33333  0  0  0  0  0  0  0  
+0  0  1.33333  0  0  0  0  0  0  
+0  0  0  2  0  0  0  0  0  
+0  0  0  0  0.666667  0  0  0  0  
+0  0  0  0  0  0.666667  0  0  0  
+0  0  0  0  0  0  0.666667  0  0  
+0  0  0  0  0  0  0  0.666667  0  
+0  0  0  0  0  0  0  0  0  
+]
+system_rhs=[0  0  0  -0.130208  0  0  0  0  0  ]'
+
+
+
+i=  0 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0354808
+i=  1 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00950706
+i=  2 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00950706
+i=  3 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00254741
+i=  0 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0392424
+i=  1 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0235454
+i=  2 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.010515
+i=  3 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00630898
+i=  0 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.043004
+i=  1 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0245534
+i=  2 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0245534
+i=  3 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0100706
+i=  0 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+i=  1 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  2 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  3 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+cell_rhs=[-0.0434028  -0.0260417  -0.0260417  -0.015625  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[3  5  7  8  ]'
+cell_rhs=[-0.0434028  -0.0260417  -0.0260417  -0.015625  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  1.33333  0  0  0  0  0  0  0  
+0  0  1.33333  0  0  0  0  0  0  
+0  0  0  2.66667  0  0  0  0  0  
+0  0  0  0  0.666667  0  0  0  0  
+0  0  0  0  0  1.33333  0  0  0  
+0  0  0  0  0  0  0.666667  0  0  
+0  0  0  0  0  0  0  1.33333  0  
+0  0  0  0  0  0  0  0  0.666667  
+]
+system_rhs=[0  0  0  -0.173611  0  0  0  0  0  ]'
+
+
+
+   Solving system...
+solution before constraints
+solution_wo_cont=[0  0  0  -0.0651042  0  0  0  0  0  ]'
+solution after constraints
+solution_w_cont=[0  0  0  -0.0651042  0  0  0  0  0  ]'
+      Error: 0.173611 -> 2.77556e-17 in 1 CG iterations.
+   Updating active set...
+active_set=[3  ]'
+solution=[0  0  0  -0.024  0  0  0  0  0  ]'
+lambda=[-0  -0  -0  0  -0  -0  -0  -0  -0  ]'
+      Size of active set: 1
+   Residual of the non-contact part of the system: 0
+   Writing graphical output...
+
+Newton iteration 1
+   Assembling system...
+i=  0 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00555444
+i=  1 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00148831
+i=  2 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00148831
+i=  3 q_point=0
+  rhs.val=-0.142878 quadrature point=0.105662 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.000398791
+i=  0 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00931602
+i=  1 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0155267
+i=  2 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00249622
+i=  3 q_point=1
+  rhs.val=-0.361111 quadrature point=0.394338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00416037
+i=  0 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0130776
+i=  1 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0165346
+i=  2 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0165346
+i=  3 q_point=2
+  rhs.val=-0.361111 quadrature point=0.105662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00792194
+i=  0 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+i=  1 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  2 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  3 q_point=3
+  rhs.val=-0.912678 quadrature point=0.394338 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+cell_rhs=[-0.015625  -0.0260417  -0.0260417  -0.0434028  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[0  1  2  3  ]'
+cell_rhs=[-0.015625  -0.0260417  -0.0260417  -0.0434028  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  0.666667  0  0  0  0  0  0  0  
+0  0  0.666667  0  0  0  0  0  0  
+0  0  0  0.666667  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+]
+system_rhs=[0  0  0  -0.016  0  0  0  0  0  ]'
+
+
+
+i=  0 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0140384
+i=  1 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  2 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  3 q_point=0
+  rhs.val=-0.361111 quadrature point=0.605662 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00100791
+i=  0 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0155267
+i=  1 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00931602
+i=  2 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00416037
+i=  3 q_point=1
+  rhs.val=-0.142878 quadrature point=0.894338 0.105662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00249622
+i=  0 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0250338
+i=  1 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0118634
+i=  2 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0396412
+i=  3 q_point=2
+  rhs.val=-0.912678 quadrature point=0.605662 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0120033
+i=  0 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  1 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+i=  2 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+i=  3 q_point=3
+  rhs.val=-0.361111 quadrature point=0.894338 0.394338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+cell_rhs=[-0.0260417  -0.015625  -0.0434028  -0.0260417  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[1  4  3  5  ]'
+cell_rhs=[-0.0260417  -0.015625  -0.0434028  -0.0260417  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  1.33333  0  0  0  0  0  0  0  
+0  0  0.666667  0  0  0  0  0  0  
+0  0  0  1.33333  0  0  0  0  0  
+0  0  0  0  0.666667  0  0  0  0  
+0  0  0  0  0  0.666667  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+0  0  0  0  0  0  0  0  0  
+]
+system_rhs=[0  0  0  -0.032  0  0  0  0  0  ]'
+
+
+
+i=  0 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0140384
+i=  1 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  2 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00376157
+i=  3 q_point=0
+  rhs.val=-0.361111 quadrature point=0.105662 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00100791
+i=  0 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0235454
+i=  1 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0392424
+i=  2 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00630898
+i=  3 q_point=1
+  rhs.val=-0.912678 quadrature point=0.394338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.010515
+i=  0 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0250338
+i=  1 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0396412
+i=  2 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0118634
+i=  3 q_point=2
+  rhs.val=-0.142878 quadrature point=0.105662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0120033
+i=  0 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  1 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+i=  2 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+i=  3 q_point=3
+  rhs.val=-0.361111 quadrature point=0.394338 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+cell_rhs=[-0.0260417  -0.0434028  -0.015625  -0.0260417  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[2  3  6  7  ]'
+cell_rhs=[-0.0260417  -0.0434028  -0.015625  -0.0260417  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  1.33333  0  0  0  0  0  0  0  
+0  0  1.33333  0  0  0  0  0  0  
+0  0  0  2  0  0  0  0  0  
+0  0  0  0  0.666667  0  0  0  0  
+0  0  0  0  0  0.666667  0  0  0  
+0  0  0  0  0  0  0.666667  0  0  
+0  0  0  0  0  0  0  0.666667  0  
+0  0  0  0  0  0  0  0  0  
+]
+system_rhs=[0  0  0  -0.048  0  0  0  0  0  ]'
+
+
+
+i=  0 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0354808
+i=  1 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00950706
+i=  2 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00950706
+i=  3 q_point=0
+  rhs.val=-0.912678 quadrature point=0.605662 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00254741
+i=  0 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0392424
+i=  1 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0235454
+i=  2 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.010515
+i=  3 q_point=1
+  rhs.val=-0.361111 quadrature point=0.894338 0.605662 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.00630898
+i=  0 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.043004
+i=  1 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0245534
+i=  2 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0245534
+i=  3 q_point=2
+  rhs.val=-0.361111 quadrature point=0.605662 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0100706
+i=  0 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.0446582  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0434028
+i=  1 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  2 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.166667  fe_values.JxW=0.0625
+cell_rhs(i)=-0.0260417
+i=  3 q_point=3
+  rhs.val=-0.142878 quadrature point=0.894338 0.894338 shape_fun value=0.622008  fe_values.JxW=0.0625
+cell_rhs(i)=-0.015625
+cell_rhs=[-0.0434028  -0.0260417  -0.0260417  -0.015625  ]'
+cell_matrix=[
+0.666667  -0.166667  -0.166667  -0.333333  
+-0.166667  0.666667  -0.333333  -0.166667  
+-0.166667  -0.333333  0.666667  -0.166667  
+-0.333333  -0.166667  -0.166667  0.666667  
+]local_dof_indices=[3  5  7  8  ]'
+cell_rhs=[-0.0434028  -0.0260417  -0.0260417  -0.015625  ]'
+system_matrix=[
+0.666667  0  0  0  0  0  0  0  0  
+0  1.33333  0  0  0  0  0  0  0  
+0  0  1.33333  0  0  0  0  0  0  
+0  0  0  2.66667  0  0  0  0  0  
+0  0  0  0  0.666667  0  0  0  0  
+0  0  0  0  0  1.33333  0  0  0  
+0  0  0  0  0  0  0.666667  0  0  
+0  0  0  0  0  0  0  1.33333  0  
+0  0  0  0  0  0  0  0  0.666667  
+]
+system_rhs=[0  0  0  -0.064  0  0  0  0  0  ]'
+
+
+
+   Solving system...
+solution before constraints
+solution_wo_cont=[0  0  0  -0.024  0  0  0  0  0  ]'
+solution after constraints
+solution_w_cont=[0  0  0  -0.024  0  0  0  0  0  ]'
+      Error: 0 -> 0 in 0 CG iterations.
+   Updating active set...
+active_set=[3  ]'
+solution=[0  0  0  -0.024  0  0  0  0  0  ]'
+lambda=[-0  -0  -0  0  -0  -0  -0  -0  -0  ]'
+      Size of active set: 1
+   Residual of the non-contact part of the system: 0
+   Writing graphical output...
+[100%] Built target run
